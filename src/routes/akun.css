@@ -1,0 +1,128 @@
+/* akun.css */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.9rem 7%;
+  background-color: white;
+  border-bottom: 1px solid #513c28;
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 99999;
+}
+
+.navbar-na{
+  display: flex;
+}
+
+img.navbar-logo {
+  width: 150px;
+  margin-left: 10px;
+}
+
+.navbar .navbar-nav a {
+  color: #000000;
+  display: inline-block;
+  font-size: 1, 3rem;
+  margin: 0 2rem;
+  text-decoration: none;
+  
+}
+
+.navbar .navbar-nav a:hover {
+  color: var(--primary);
+}
+
+.login-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+button {
+  background-color: #D43831;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #690f0f;
+}
+
+.semua{
+  border: 1px solid black;
+  height: 400px;
+  width: 600px;
+  align-items: center;
+  margin: auto auto;
+  padding: 50px;
+}
+
+.input{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding-bottom: 10px;
+ 
+}
+
+#password{
+  width: 800px;
+}
+
+#username{
+  width: 800px;
+}
+
+.login{
+  font-size: 20px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.lupa{
+  font-size: 15px;
+  text-align: right;
+  color: #4DA6EC;
+  font-weight: normal;
+}
+
+
+.loginn {
+  margin-top: 25px;
+  width: 500px;
+  
+}
+
+.daftar
+{
+  width: 500px;
+  margin-top: 10px;
+  background-color: white;
+  color: gray;
+}

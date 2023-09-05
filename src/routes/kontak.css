@@ -1,0 +1,299 @@
+*{
+    padding: 0px;
+    margin: 0px;
+  }
+  
+  body{
+    background-color: rgb(248,249,250);
+  }
+  
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.9rem 7%;
+    background-color: white;
+    border-bottom: 1px solid #513c28;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 99999;
+  }
+  
+  .navbar-na{
+    display: flex;
+  }
+  
+  
+  
+  
+  img.navbar-logo {
+    width: 150px;
+    margin-right: 300px;
+  }
+  
+  
+  
+  .navbar .navbar-nav a {
+    color: #000000;
+    display: inline-block;
+    font-size: 1, 3rem;
+    margin: 0 2rem;
+    text-decoration: none;
+    
+  }
+  
+  .navbar .navbar-nav a:hover {
+    color: var(--primary);
+  }
+  
+  .firstContent {
+    padding-top: 65px;
+  }
+  
+  .g-esports{
+    width: 100%;
+    position: absolute; 
+    z-index: 1;
+  }
+  
+  
+  
+  .garenaesport {
+    color: white;
+    font-size: xx-large;
+    font-family: sans-serif;
+    margin-top: 490px;
+    font-size: 45px;
+    margin-left: 600px;
+    font-weight: 700;
+  }
+  
+  .pemainpemain{
+    margin-top: 10px;
+    font-size: 20px;
+    color: white;
+    margin-left: 340px;
+  }
+  
+  .garenatext{
+    margin-top: 10px;
+    font-size: 20px;
+    color: white;
+    margin-left: 740px;
+  }
+  
+  .content-body{
+    margin-top: 820px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 40px;
+  }
+  
+  
+  .card-container {
+    display: flex;
+    gap: 60px;
+    margin-top: 1000px;
+    margin-left: 50px;
+    margin-bottom: 100px;
+  }
+  
+  .card {
+    text-align: center;
+    width: 350px;
+    height: 350px;
+    padding: 20px;
+    background-color: rgb(255,255,255);
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    
+  }
+  
+  .centered-text {
+    text-align: center;
+    margin-top: 5px;
+  }
+  
+  h2 {
+    margin-left: 10px;
+    color: red;
+  }
+  
+  p {
+    margin-top: 5px;
+  }
+  
+  .logos{
+    width: 150px;
+    margin-left: 20px;
+  }
+  
+  .konten{
+    
+    
+    background-color: rgb(255,255,255);
+    height: 200px;
+   
+   
+  
+  }
+  
+  .konten1{
+    width: 150px;
+  }
+  
+  .footer{
+    display: flex;
+    float: right;
+    gap: 10px;
+    margin-right: 50px;
+  }
+  
+  .footer2{
+    display: flex;
+    float: right;
+    gap: 10px;
+    margin-top: 50px;
+    margin-left: 500px;
+    float: right 600px; 
+  }
+  
+  * {
+    text-decoration: none;
+    list-style-type:  none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  footer {
+    padding: 80px 120px;
+    background-color: white;
+  }
+  
+  .footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+  }
+  
+  
+  .footer-top .left img {
+    height: 40px;
+    margin-top: 2000px;
+    margin-right: 900px;
+  }
+  
+  .right {
+    display: flex;
+    gap: 60px;
+   
+  }
+  
+  .bg-awal{
+    width: 100%;
+  }
+  
+  .navbarr{
+    display: flex;
+    
+   
+    
+    background-color: white;
+    border-bottom: 1px solid #513c28;
+    position: fixed;
+    left: 0;
+    right: 0;
+    padding: 20px;
+    
+   
+  
+  }
+  
+  
+  .navbar-navv{
+    padding-right: 1000px;
+    
+  }
+
+  .kontak{
+   
+  }
+
+
+
+.body-sign {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+}
+
+.input-box {
+  position: relative;
+  display: inline-block;
+
+}
+
+.kontao{
+  margin-top: 150px;
+  
+}
+
+input[type="text"] {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+   /* Atur latar belakang input menjadi transparan */
+  border: none; /* Hapus border input jika diperlukan */
+  padding: 10px; /* Sesuaikan dengan padding yang Anda inginkan */
+  width: 40%; 
+  margin-left: 450px;
+}
+
+
+
+.searchicon {
+  position: absolute;
+  left: 0px;
+  display: flex;
+}
+
+.content-img{
+  display: flex;
+  position: relative;
+}
+
+.s{
+  margin-top: 30px;
+  margin-left: 200px;
+  width: 600px;
+  height: 500px;
+}
+
+
+.z{
+  width: 200px;
+  height: 120px;
+  
+}
+
+.b{
+  display: flex;
+}
+
+
+.carrd {
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  padding: 5px;
+  margin-top: 30px;
+  margin-left: 30px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+}
